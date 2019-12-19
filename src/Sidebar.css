@@ -1,0 +1,25 @@
+.header{
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    padding: 10px;
+}
+.sidebar{
+    display: flex;
+    flex-direction: row;
+    border-style: solid;
+
+}
+.mainSidebar{
+    display: flex;
+    flex-direction: column;
+}
+.comment{
+    display: flex;
+    flex-direction: row;
+}
