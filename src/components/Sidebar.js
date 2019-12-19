@@ -1,13 +1,15 @@
 import React from 'react';
-import "./Sidebar.css"
+
+import style from './Sidebar.module.css'
+
 function Sidebar() {
     return (
-        <div className = "main" >
-            <div className="header">
+        <div className={style.main} >
+            <div className={style.header}>
                 <span>פרויקטים בתהליך:</span>
             </div>
-            <div className="sidebar">
-                <div className="mainSidebar">
+            <div className={style.sidebar}>
+                <div className={style.mainSidebar}>
                     <span>פרויקט משהו בר קיימה</span>
                     <button>כנס</button>
                 </div>

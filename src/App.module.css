@@ -1,0 +1,21 @@
+.App {
+  text-align: center;
+  flex-direction: column;
+  width: 80%;
+  margin: auto;
+  background: lightskyblue;
+}
+
+.mainView{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.main {
+  width: 70%;
+}
+
+.sidebar {
+  width: 30%;
+}
