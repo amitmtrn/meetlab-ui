@@ -1,0 +1,12 @@
+.Login_Main{
+    flex-direction: column;
+    justify-content: space-between;
+}
+.Login_Username{
+    flex-direction: row;
+    justify-content: space-between; 
+}
+.Login_Password{
+    flex-direction: row;
+    justify-content: space-between; 
+}

@@ -1,0 +1,12 @@
+.Interests_Main{
+    flex-direction: column;
+    justify-content: space-between;  
+}
+.Interests_Interests{
+    flex-direction: column;
+    justify-content: space-between;  
+}
+.Interests_Box{
+    flex-direction: row;
+    justify-content: space-between;
+}
