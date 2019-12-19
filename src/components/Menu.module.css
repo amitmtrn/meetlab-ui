@@ -1,0 +1,10 @@
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: solid;
+}
+
+.linkMenu a {
+    margin-right: 10px;
+}
