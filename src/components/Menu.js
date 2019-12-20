@@ -6,12 +6,14 @@ function Menu() {
     return (
         <div className={style.header}>
             <div className={style.linkMenu}>
-                <a href="/#">פרופיל-אישי</a>
+                <button className={style.Menu_Button}>M</button>
+                <button className={style.Home_Button}>דף הבית</button>
+                <a href="/#">פרופיל אישי</a>
                 <a href="/#">ארכיון</a>
             </div>
             <div>
-                <input type="search" />
-                <button>חפש</button>
+                <input className={style.Menu_Search}  type="search" />
+                <button className={style.Menu_Search_B}>חפש</button>
             </div>
         </div>
     )

@@ -11,6 +11,7 @@
     border-style: solid;
     margin: 10px;
     padding: 10px;
+    background: #f7f7f7;
 
 }
 .post{
@@ -22,9 +23,18 @@
 }
 .mainPost{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: space-between;
 }
 .comment{
     display: flex;
     flex-direction: row;
+}
+.Post_Button{
+    background: #cdd4dc;
+    border: none;
+}
+.user_icon{
+    display: flex;
+    flex-direction: column;
 }

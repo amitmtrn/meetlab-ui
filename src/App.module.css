@@ -1,9 +1,9 @@
 .App {
   text-align: center;
   flex-direction: column;
-  width: 80%;
+  width: fit-content;
   margin: auto;
-  background: #eee;
+  background: #eeeeee;
 }
 
 .mainView{
@@ -18,4 +18,11 @@
 
 .sidebar {
   width: 30%;
+}
+.what_inte{
+  background: #ffffff;
+}
+.what_inte_b{
+  background: #cdd4dc;
+  border: none;
 }

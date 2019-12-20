@@ -8,4 +8,25 @@
 
 .linkMenu a {
     margin-right: 10px;
+    text-decoration: none;
+    color: black;
+}
+.Menu_Button{
+    background: #e8ecef;
+    border: 1px solid #eaeaea;
+}
+.Home_Button{
+    background: #01abe1;
+    color: #ffffff;
+    border: none;
+}
+.Menu_Search_B{
+    background: #01abe1;
+    color: #ffffff;
+    border: none;
+
+}
+.Menu_Search{
+    background: #f7f7f7;
+    border: none;
 }

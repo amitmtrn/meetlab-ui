@@ -46,11 +46,11 @@ function Main() {
       </div>
       <div className={style.mainView}>
         <div className={style.main}>
-          <div>
-            <input type="text" placeholder="מה מעניין אותך?" onChange={e => setNewPost(e.target.value)} />
-            <button onClick={() => {
+          <div className={style.what_inte}>
+            <button className={style.what_inte_b} onClick={() => {
               flows.execute('add_post', {content: newPost, token: window.localStorage.getItem('token')})
             }}>פרסם</button>
+            <input type="text" placeholder="מה מעניין אותך?" onChange={e => setNewPost(e.target.value)} />
           </div>
 
           {
