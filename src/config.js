@@ -1,4 +1,0 @@
-
-export default {
-  "token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVkZmJjYTUxMGMwZjA4NzYwYjRhMzNjMyIsIm5hbWUiOiJhbWl0IiwiaWF0IjoxNTc2NzgyNDk4fQ.rXpoDZ2sne3S-GRvgcrX6uYrJNJjIdqsR6Kz9jHyhPc"
-}

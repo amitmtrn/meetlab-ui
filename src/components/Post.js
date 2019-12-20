@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 
 import style from './Post.module.css';
 import { flows } from '@codeinkit/flows-client/release/js/flows';
-import config from '../config';
 
 function Post(props) {
     const [newComment, setNewComment] = useState('');
@@ -17,7 +16,7 @@ function Post(props) {
                     ))}
                     <div className={style.comment} style={{display:"flex",flexDirection:"row",margin:"20px"}}>
                         <input type="text" onChange={e=>setNewComment(e.target.value)} placeholder="הגב כאן"></input>
-                        <button onClick={() => flows.execute('add_comment', {postId: props.id,content: newComment, token: config.token})}>פרסם</button>
+                        <button onClick={() => flows.execute('add_comment', {postId: props.id,content: newComment, token: window.localStorage.getItem('token')})}>פרסם</button>
                     </div>
                 </div>
             </div>

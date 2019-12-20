@@ -6,8 +6,8 @@ function Menu() {
     return (
         <div className={style.header}>
             <div className={style.linkMenu}>
-                <a href="#">פרופיל-אישי</a>
-                <a href="#">ארכיון</a>
+                <a href="/#">פרופיל-אישי</a>
+                <a href="/#">ארכיון</a>
             </div>
             <div>
                 <input type="search" />
